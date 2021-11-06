@@ -1,0 +1,28 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+.block{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background: silver;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.container .box{
+    width: 49%;
+    padding: 10px;
+    color: red;
+    background: salmon;
+    margin: 5px;
+}
